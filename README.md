@@ -18,23 +18,30 @@ A real-time data streaming application built with Apache Kafka, Scala, and Avro 
 - **Apache Kafka**: 2.12-3.5.0
 - **Apache Zookeeper**: (included with Kafka)
 
-### Start Zookeeper
+## ⚙️ Setup & Installation
+
+### Start Kafka Infrastructure
+
+```bash
+# Start Zookeeper (Terminal 1)
 cd C:\kafka_2.12-3.5.0
 .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
 
-### Start Kafka Server
-### New Terminal
+# Start Kafka Server (Terminal 2)
 cd C:\kafka_2.12-3.5.0
 .\bin\windows\kafka-server-start.bat .\config\server.properties
 
-### Running the Producer
-### New Terminal
+# Create topic with 2 partitions
+.\bin\windows\kafka-topics.bat --create --topic demo_sub_topic_4 --bootstrap-server localhost:9092 --partitions 2 --replication-factor 1
+
+# Terminal 3
 cd kafka-producer
 sbt run
+# Select: SimpleKafkaProducerAvro
 
 ### Running Consumers
 ### New Terminal
-**Terminal 1 - Primary Consumer (Partition 0):**
+**Terminal 4 - Primary Consumer (Partition 0):**
 ```bash
 sbt run
 # Select: SimpleKafkaConsumer
