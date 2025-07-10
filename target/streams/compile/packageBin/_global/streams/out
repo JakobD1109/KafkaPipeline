@@ -1,0 +1,27 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging C:\kafka_2.12-3.5.0\kafka-producer\target\scala-2.12\simple-kafka-producer_2.12-0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CustomPartitioner.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\kafka_2.12-3.5.0\kafka-producer\target\scala-2.12\classes\CustomPartitioner.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SimpleKafkaConsumer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\kafka_2.12-3.5.0\kafka-producer\target\scala-2.12\classes\SimpleKafkaConsumer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SimpleKafkaConsumer$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\kafka_2.12-3.5.0\kafka-producer\target\scala-2.12\classes\SimpleKafkaConsumer$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SimpleKafkaConsumer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\kafka_2.12-3.5.0\kafka-producer\target\scala-2.12\classes\SimpleKafkaConsumer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SimpleKafkaProducer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\kafka_2.12-3.5.0\kafka-producer\target\scala-2.12\classes\SimpleKafkaProducer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SimpleKafkaProducer$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\kafka_2.12-3.5.0\kafka-producer\target\scala-2.12\classes\SimpleKafkaProducer$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SimpleKafkaProducer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\kafka_2.12-3.5.0\kafka-producer\target\scala-2.12\classes\SimpleKafkaProducer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SimpleKafkaProducerAvro$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\kafka_2.12-3.5.0\kafka-producer\target\scala-2.12\classes\SimpleKafkaProducerAvro$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SimpleKafkaProducerAvro.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\kafka_2.12-3.5.0\kafka-producer\target\scala-2.12\classes\SimpleKafkaProducerAvro.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SimpleKafkaProducerStudent$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\kafka_2.12-3.5.0\kafka-producer\target\scala-2.12\classes\SimpleKafkaProducerStudent$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SimpleKafkaProducerStudent.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\kafka_2.12-3.5.0\kafka-producer\target\scala-2.12\classes\SimpleKafkaProducerStudent.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Student.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\kafka_2.12-3.5.0\kafka-producer\target\scala-2.12\classes\Student.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

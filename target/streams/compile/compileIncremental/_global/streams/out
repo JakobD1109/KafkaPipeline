@@ -1,0 +1,60 @@
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 12 products, 6 sources, 3 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/main/scala/SimpleKafkaProducerAvro.scala, ${BASE}/src/main/scala/CustomPartitioner.scala, ${BASE}/src/main/scala/Student.scala, ${BASE}/src/main/scala/SimpleKafkaProducer.scala, ${BASE}/src/main/scala/SimpleKafkaProducerStudent.scala, ${BASE}/src/main/scala/SimpleKafkaConsumer.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/SimpleKafkaProducerAvro.scala, ${BASE}/src/main/scala/CustomPartitioner.scala), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(${BASE}/src/main/scala/SimpleKafkaProducerAvro.scala, ${BASE}/src/main/scala/CustomPartitioner.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(SimpleKafkaProducerAvro, com.kafka.scala.demo2.subdemo2.CustomPartitioner)[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(SimpleKafkaProducerAvro, com.kafka.scala.demo2.subdemo2.CustomPartitioner)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(${BASE}/src/main/scala/SimpleKafkaProducerAvro.scala, ${BASE}/src/main/scala/CustomPartitioner.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: SimpleKafkaProducerAvro, com.kafka.scala.demo2.subdemo2.CustomPartitioner[0m
+[0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to C:\kafka_2.12-3.5.0\kafka-producer\target\scala-2.12\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.10.8:compile for Scala 2.12.18[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 3ebfed58 for Scala compiler version 2.12.18[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\jakob\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.12.18\scala-library-2.12.18.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\kafka_2.12-3.5.0\kafka-producer\target\scala-2.12\classes;C:\Users\jakob\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\apache\kafka\kafka-clients\3.5.0\kafka-clients-3.5.0.jar;C:\Users\jakob\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\apache\avro\avro\1.11.1\avro-1.11.1.jar;C:\Users\jakob\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\github\luben\zstd-jni\1.5.5-1\zstd-jni-1.5.5-1.jar;C:\Users\jakob\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\lz4\lz4-java\1.8.0\lz4-java-1.8.0.jar;C:\Users\jakob\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\xerial\snappy\snappy-java\1.1.10.0\snappy-java-1.1.10.0.jar;C:\Users\jakob\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\jakob\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-core\2.12.7\jackson-core-2.12.7.jar;C:\Users\jakob\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-databind\2.12.7\jackson-databind-2.12.7.jar;C:\Users\jakob\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\jakob\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-annotations\2.12.7\jackson-annotations-2.12.7.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 9.5616899 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mdone compiling[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from com.kafka.scala.demo2.subdemo2.CustomPartitioner...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: com.kafka.scala.demo2.subdemo2.CustomPartitioner[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(com.kafka.scala.demo2.subdemo2.CustomPartitioner)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(com.kafka.scala.demo2.subdemo2.CustomPartitioner,ModifiedNames(changes = UsedName(partition,[Default]), UsedName(synchronized,[Default]), UsedName(asInstanceOf,[Default]), UsedName(##,[Default]), UsedName(ne,[Default]), UsedName(com;kafka;scala;demo2;subdemo2;CustomPartitioner;init;,[Default]), UsedName(notifyAll,[Default]), UsedName(!=,[Default]), UsedName(finalize,[Default]), UsedName(isInstanceOf,[Default]), UsedName(clone,[Default]), UsedName(toString,[Default]), UsedName(equals,[Default]), UsedName(wait,[Default]), UsedName(onNewBatch,[Default]), UsedName(hashCode,[Default]), UsedName(getClass,[Default]), UsedName(CustomPartitioner,[Default]), UsedName(notify,[Default]), UsedName(close,[Default]), UsedName(configure,[Default]), UsedName(==,[Default]), UsedName(eq,[Default]))) invalidates 1 classes due to The com.kafka.scala.demo2.subdemo2.CustomPartitioner has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(partition,[Default]), UsedName(synchronized,[Default]), UsedName(asInstanceOf,[Default]), UsedName(##,[Default]), UsedName(ne,[Default]), UsedName(com;kafka;scala;demo2;subdemo2;CustomPartitioner;init;,[Default]), UsedName(notifyAll,[Default]), UsedName(!=,[Default]), UsedName(finalize,[Default]), UsedName(isInstanceOf,[Default]), UsedName(clone,[Default]), UsedName(toString,[Default]), UsedName(equals,[Default]), UsedName(wait,[Default]), UsedName(onNewBatch,[Default]), UsedName(hashCode,[Default]), UsedName(getClass,[Default]), UsedName(CustomPartitioner,[Default]), UsedName(notify,[Default]), UsedName(close,[Default]), UsedName(configure,[Default]), UsedName(==,[Default]), UsedName(eq,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > by transitive inheritance: Set(com.kafka.scala.demo2.subdemo2.CustomPartitioner)[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from CustomPartitioner...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: CustomPartitioner[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(CustomPartitioner)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(CustomPartitioner,ModifiedNames(changes = UsedName(partition,[Default]), UsedName(synchronized,[Default]), UsedName(asInstanceOf,[Default]), UsedName(##,[Default]), UsedName(ne,[Default]), UsedName(notifyAll,[Default]), UsedName(!=,[Default]), UsedName(finalize,[Default]), UsedName(isInstanceOf,[Default]), UsedName(clone,[Default]), UsedName(toString,[Default]), UsedName(CustomPartitioner;init;,[Default]), UsedName(equals,[Default]), UsedName(wait,[Default]), UsedName(onNewBatch,[Default]), UsedName(hashCode,[Default]), UsedName(getClass,[Default]), UsedName(CustomPartitioner,[Default]), UsedName(notify,[Default]), UsedName(close,[Default]), UsedName(configure,[Default]), UsedName(==,[Default]), UsedName(eq,[Default]))) invalidates 1 classes due to The CustomPartitioner has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(partition,[Default]), UsedName(synchronized,[Default]), UsedName(asInstanceOf,[Default]), UsedName(##,[Default]), UsedName(ne,[Default]), UsedName(notifyAll,[Default]), UsedName(!=,[Default]), UsedName(finalize,[Default]), UsedName(isInstanceOf,[Default]), UsedName(clone,[Default]), UsedName(toString,[Default]), UsedName(CustomPartitioner;init;,[Default]), UsedName(equals,[Default]), UsedName(wait,[Default]), UsedName(onNewBatch,[Default]), UsedName(hashCode,[Default]), UsedName(getClass,[Default]), UsedName(CustomPartitioner,[Default]), UsedName(notify,[Default]), UsedName(close,[Default]), UsedName(configure,[Default]), UsedName(==,[Default]), UsedName(eq,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > by transitive inheritance: Set(CustomPartitioner)[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: [0m
+[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0mFinal step, transitive dependencies:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: SimpleKafkaProducerAvro, com.kafka.scala.demo2.subdemo2.CustomPartitioner, CustomPartitioner[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated macros due to upstream dependencies change: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mNo classes were invalidated.[0m
